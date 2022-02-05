@@ -4,8 +4,9 @@
 Material:
   serializedVersion: 6
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_Name: Signed Distance Field UI
   m_Shader: {fileID: 4800000, guid: b8357f68a26fa954fbd0cce486c8d699, type: 3}
   m_ShaderKeywords: UNITY_UI_CLIP_RECT _ALPHABLEND_ON _SMOOTHINGMODE_AUTO _VERTEXCOLOR_ON
@@ -24,7 +25,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Floats:
     - _ColorMask: 15
-    - _Softening: 0.31182915
+    - _Softening: 0.3456001
     - _Stencil: 0
     - _StencilComp: 8
     - _StencilOp: 0
@@ -33,3 +34,4 @@ Material:
     - _UseUIAlphaClip: 0
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
+  m_BuildTextureStacks: []
